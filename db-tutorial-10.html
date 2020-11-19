@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var customer = {name : "Tiny Tim McGee", address : "123 South Ave", balance : 5000.05};
+      for(k in customer){
+          document.write(customer[k] + "<br />");
+      }
+      for (j = 0; j <= 20; j++) {
+        if (j % 2 === 0) {
+          continue;
+        }
+        if (j === 15) {
+          break;
+        }
+        document.write(j + "<br />");
+      }
+    </script>
+  </body>
+</html>
